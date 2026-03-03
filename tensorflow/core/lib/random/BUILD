@@ -60,6 +60,7 @@ cc_library(
     visibility = [
         "//tensorflow/core:__pkg__",
         "//tensorflow/core/grappler/optimizers:__pkg__",
+        "//tensorflow_serving:internal",
     ],
     deps = [
         "//tensorflow/core/platform:random",
